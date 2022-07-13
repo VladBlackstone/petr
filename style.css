@@ -3,3 +3,27 @@ body {
     background-image: url(images/187161.jpg);
 
 }
+
+div#cent {
+    text-shadow: 2px 2px 5px rgb(212, 0, 255);
+    background-image: url(images/187161.jpg);
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    transform: rotate(5deg);
+    text-align: center;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(71, 39, 97);
+    border: 1;
+    transition: transform 0.5s ease-in-out;
+}
+
+div#cent:hover {
+          transform: rotate(0deg);
+}
+
+h1 {
+    color: rgb(112, 221, 221);
+    text-align: center;
+}
