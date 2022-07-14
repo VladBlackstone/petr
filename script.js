@@ -1,7 +1,6 @@
 "use strict";
 
 let numberOfFilms = prompt("Сколько фильмо вы уже посомтрели?", "");
-
 let personalMovieDB = {
     count: numberOfFilms,
     movies: {},
